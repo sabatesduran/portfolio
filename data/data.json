@@ -1,0 +1,28 @@
+{
+  "social": [{
+    "name": "Twitter",
+    "url": "https://twitter.com/didacsd",
+    "icon": "fa-twitter",
+    "color": "light-blue"
+  }, {
+    "name": "LinkedIn",
+    "url": "https://es.linkedin.com/in/didacsabates/en",
+    "icon": "fa-linkedin",
+    "color": "light-blue darken-4"
+  }, {
+    "name": "Stack Overflow",
+    "url": "http://stackoverflow.com/users/3437023/sabatesduran",
+    "icon": "fa-stack-overflow",
+    "color": "deep-orange"
+  }, {
+    "name": "Github",
+    "url": "https://github.com/sabatesduran",
+    "icon": "fa-github",
+    "color": "black"
+  }, {
+    "name": "Email",
+    "url": "mailto:sabatesduran@gmail.com",
+    "icon": "fa-envelope",
+    "color": "grey darken-1"
+  }]
+}

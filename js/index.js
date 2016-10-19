@@ -1,6 +1,13 @@
 $.getJSON('data/data.json', function(data) {
-    create_social_links(data.social);
+    add_text_to_id("name", data.name);
+    add_text_to_id("profession", data.profession);
+    create_social_links(data.social_links);
 });
+
+function add_text_to_id(id, value) {
+  var t = document.createTextNode(value);
+  document.getElementById(id).appendChild(t);
+}
 
 function create_social_links(social) {
   $(social).each(function(index, sn) {

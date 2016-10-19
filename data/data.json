@@ -1,5 +1,7 @@
 {
-  "social": [{
+  "name": "Dídac Sabatés",
+  "profession": "Full Satack Web Developer",
+  "social_links": [{
     "name": "Twitter",
     "url": "https://twitter.com/didacsd",
     "icon": "fa-twitter",

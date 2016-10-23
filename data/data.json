@@ -5,26 +5,26 @@
     "name": "Twitter",
     "url": "https://twitter.com/didacsd",
     "icon": "fa-twitter",
-    "color": "light-blue"
+    "color": "animate-icon twitter-color"
   }, {
     "name": "LinkedIn",
     "url": "https://es.linkedin.com/in/didacsabates/en",
     "icon": "fa-linkedin",
-    "color": "light-blue darken-4"
+    "color": "animate-icon linkedin-color"
   }, {
     "name": "Stack Overflow",
     "url": "http://stackoverflow.com/users/3437023/sabatesduran",
     "icon": "fa-stack-overflow",
-    "color": "deep-orange"
+    "color": "animate-icon stack-overflow-color"
   }, {
     "name": "Github",
     "url": "https://github.com/sabatesduran",
     "icon": "fa-github",
-    "color": "black"
+    "color": "animate-icon github-color"
   }, {
     "name": "Email",
     "url": "mailto:sabatesduran@gmail.com",
     "icon": "fa-envelope",
-    "color": "grey darken-1"
+    "color": "animate-icon email-color"
   }]
 }

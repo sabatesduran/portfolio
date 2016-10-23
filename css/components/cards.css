@@ -1,0 +1,38 @@
+.cards {
+  display: flex;
+  /*justify-content: space-around;*/
+  flex-wrap: wrap;
+  /*flex-grow: 1;*/
+  /*max-width: 50%;*/
+}
+.card {
+  flex: 1 1 40%;
+  background: #fff;
+  width: 100%;
+  padding: 20px;
+  margin: 0 20px 20px 0;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+
+.card a {
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+.card a:hover {
+  text-decoration: underline;
+}
+
+.card .card-description {
+  font-weight: lighter;
+}
+
+.card .card-stars {
+  color: ;
+  font-weight: lighter;
+}
+
+.card .card-language {
+  font-weight: lighter;
+}

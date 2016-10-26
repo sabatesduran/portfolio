@@ -1,9 +1,10 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('components/social-links.css');
-@import url('components/menu.css');
+@import url('components/navbar.css');
 @import url('components/cards.css');
 @import url('components/code-colors.css');
+@import url('components/form.css');
 
 html, body {
   margin: 0;
@@ -36,17 +37,21 @@ html, body {
 }
 
 #content {
-  width: 100%;
   overflow: auto;
-  background: #eee;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  padding:30px;
   text-align: left;
+  background: #eee;
+  padding:30px;
   line-height: 1.6;
 }
 
 .avatar {
   border-radius: 50%;
   width: 300px;
+}
+
+section {
+  max-height: 100%;
 }

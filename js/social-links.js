@@ -4,7 +4,7 @@ function add_text_to_id(id, value) {
 }
 
 function create_social_links(social) {
-  $(social).each(function(index, sn) {
+  social.forEach(function(sn) {
     var link = document.createElement("a");
     link.setAttribute("href", sn.url);
     link.setAttribute("target", "_blank");

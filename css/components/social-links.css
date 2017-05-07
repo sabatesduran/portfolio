@@ -1,7 +1,5 @@
 .social-links {
-  height: 100%;
   display: flex;
-  align-items: flex-end;
   justify-content: space-between;
 }
 
@@ -9,18 +7,7 @@
   margin-right: 10px;
   margin-bottom: 10px;
   border-color: 1px solid #000;
-}
-
-.animate-icon {
   color: #333;
-}
-
-.animate-icon{
-  transition: padding-bottom  .2s ease-in;
-}
-
-.animate-icon:hover {
-  padding-bottom: 10px;
 }
 
 .twitter-color:hover {

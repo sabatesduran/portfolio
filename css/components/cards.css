@@ -1,6 +1,8 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
 }
 .card {
   flex: 1 1 40%;
@@ -10,6 +12,7 @@
   margin: 0 20px 20px 0;
   border-radius: 3px;
   border: 1px solid #ddd;
+  text-align: left;
 }
 
 .card a {
@@ -26,10 +29,14 @@
 }
 
 .card .card-stars {
-  color: ;
+  color: #333;
   font-weight: lighter;
 }
 
 .card .card-language {
   font-weight: lighter;
+}
+
+.card span {
+  margin-right: 15px;
 }

@@ -1,16 +1,14 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('components/social-links.css');
-@import url('components/navbar.css');
 @import url('components/cards.css');
 @import url('components/code-colors.css');
-@import url('components/form.css');
 
 html, body {
   margin: 0;
   height: 100vh;
   font-family: 'Raleway', sans-serif;
-  background: url(../img/paradise.jpg) no-repeat center center fixed;
+  background: url(../img/bg.jpg) no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19,39 +17,35 @@ html, body {
 
 .container {
   height: 100vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-}
-
-.backop {
-  background-color: rgba(255,255,255,0.6);
-  padding: 30px 0 25px 0;
-}
-
-#me {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-
-#content {
-  overflow: auto;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  background: #eee;
-  padding:30px;
-  line-height: 1.6;
-}
-
-.avatar {
-  border-radius: 50%;
-  width: 300px;
+  margin: 0 20px;
 }
 
 section {
-  max-height: 100%;
+  height: 100vh;
+}
+
+.me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.me .info {
+  width: 320px;
+  text-align: center;
+}
+
+.me img {
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+#github-projects {
+  padding-top: 20px;
+}
+
+.link {
+  color: #333;
+  text-decoration: none;
 }

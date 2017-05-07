@@ -36,10 +36,28 @@ function create_github_card(repo_info) {
   info.appendChild(stars);
   info.appendChild(language);
 
+  if(repo_info.homepage !== "" && repo_info.homepage !== null) {
+    var homepage = document.createElement("span");
+    homepage.setAttribute("class", "live-demo");
+
+    var homepage_link = document.createElement("a");
+    homepage_link.setAttribute('href', repo_info.homepage);
+    var homepage_icon = document.createElement("i");
+    homepage_icon.setAttribute("class", "fa fa-external-link");
+
+    var homepage_link_text = document.createTextNode(" Live demo");
+    homepage_link.appendChild(homepage_icon);
+    homepage_link.appendChild(homepage_link_text);
+
+    homepage.appendChild(homepage_icon);
+    homepage.appendChild(homepage_link);
+    info.appendChild(homepage);
+  }
+
   card.appendChild(link);
   card.appendChild(description);
   card.appendChild(info);
 
-  var projects = document.getElementsByClassName("cards");
-  projects[0].appendChild(card);
+  var projects = document.querySelector(".cards");
+  projects.appendChild(card);
 }

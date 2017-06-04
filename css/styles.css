@@ -17,11 +17,12 @@ html, body {
 
 .container {
   height: 100vh;
-  margin: 0 20px;
+  margin: 0 auto;
 }
 
 section {
   height: 100vh;
+  padding: 20px;
 }
 
 .me {
@@ -41,11 +42,18 @@ section {
   border: 3px solid #fff;
 }
 
-#github-projects {
-  padding-top: 20px;
-}
+
 
 .link {
   color: #333;
   text-decoration: none;
+}
+
+@media (min-width: 700px) {
+  .container {
+    width: 70%;
+  }
+  #github-projects h1 {
+    padding-left: 10px;
+  }
 }

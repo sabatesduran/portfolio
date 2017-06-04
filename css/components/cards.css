@@ -2,14 +2,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 20px;
 }
 .card {
   flex: 1 1 40%;
   background: #fff;
   width: 100%;
   padding: 20px;
-  margin: 0 20px 20px 0;
+  margin: 10px 10px;
   border-radius: 3px;
   border: 1px solid #ddd;
   text-align: left;
@@ -39,4 +38,10 @@
 
 .card span {
   margin-right: 15px;
+}
+
+@media (min-width: 700px) {
+  .card {
+    margin: 10px 10px;
+  }
 }

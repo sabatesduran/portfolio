@@ -26,6 +26,10 @@
   color: #000;
 }
 
+.gitlab-color:hover {
+  color: #E14328;
+}
+
 .email-color:hover {
   color: #546e7a;
 }

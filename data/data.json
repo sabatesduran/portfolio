@@ -22,6 +22,11 @@
     "icon": "fa-github",
     "color": "animate-icon github-color"
   }, {
+    "name": "Gitlab",
+    "url": "https://gitlab.com/sabatesduran",
+    "icon": "fa-gitlab",
+    "color": "animate-icon gitlab-color"
+  }, {
     "name": "Email",
     "url": "mailto:sabatesduran@gmail.com",
     "icon": "fa-envelope",

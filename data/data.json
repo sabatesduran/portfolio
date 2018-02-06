@@ -1,35 +1,48 @@
 {
   "name": "Dídac Sabatés",
   "job": "Full Stack Web Developer",
-  "social_links": [{
-    "name": "Twitter",
-    "url": "https://twitter.com/didacsd",
-    "icon": "fa-twitter",
-    "color": "animate-icon twitter-color"
-  }, {
-    "name": "LinkedIn",
-    "url": "https://es.linkedin.com/in/didacsabates/en",
-    "icon": "fa-linkedin",
-    "color": "animate-icon linkedin-color"
-  }, {
-    "name": "Stack Overflow",
-    "url": "http://stackoverflow.com/users/3437023/sabatesduran",
-    "icon": "fa-stack-overflow",
-    "color": "animate-icon stack-overflow-color"
-  }, {
-    "name": "Github",
-    "url": "https://github.com/sabatesduran",
-    "icon": "fa-github",
-    "color": "animate-icon github-color"
-  }, {
-    "name": "Gitlab",
-    "url": "https://gitlab.com/sabatesduran",
-    "icon": "fa-gitlab",
-    "color": "animate-icon gitlab-color"
-  }, {
-    "name": "Email",
-    "url": "mailto:sabatesduran@gmail.com",
-    "icon": "fa-envelope",
-    "color": "animate-icon email-color"
-  }]
+  "social_links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/didacsd",
+      "icon": "fab fa-twitter",
+      "color": "animate-icon twitter-color"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://es.linkedin.com/in/didacsabates/en",
+      "icon": "fab fa-linkedin",
+      "color": "animate-icon linkedin-color"
+    },
+    {
+      "name": "Stack Overflow",
+      "url": "http://stackoverflow.com/users/3437023/sabatesduran",
+      "icon": "fab fa-stack-overflow",
+      "color": "animate-icon stack-overflow-color"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/sabatesduran",
+      "icon": "fab fa-github",
+      "color": "animate-icon github-color"
+    },
+    {
+      "name": "Gitlab",
+      "url": "https://gitlab.com/sabatesduran",
+      "icon": "fab fa-gitlab",
+      "color": "animate-icon gitlab-color"
+    },
+    {
+      "name": "Articles",
+      "url": "https://dev.to/sabatesduran",
+      "icon": "far fa-file-alt",
+      "color": "animate-icon articles-color"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:sabatesduran@gmail.com",
+      "icon": "far fa-envelope",
+      "color": "animate-icon email-color"
+    }
+  ]
 }

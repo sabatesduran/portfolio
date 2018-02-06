@@ -1,18 +1,15 @@
 /* Imports */
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('components/social-links.css');
-@import url('components/cards.css');
-@import url('components/code-colors.css');
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("components/flex.css");
+@import url("components/social-links.css");
+@import url("components/cards.css");
+@import url("components/code-colors.css");
 
-html, body {
+html,
+body {
   margin: 0;
   height: 100vh;
-  font-family: 'Raleway', sans-serif;
-  background: url(../img/bg.jpg) no-repeat bottom right fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  font-family: "Fira Mono", monospace;
 }
 
 .container {
@@ -41,8 +38,6 @@ section {
   border-radius: 50%;
   border: 3px solid #fff;
 }
-
-
 
 .link {
   color: #333;

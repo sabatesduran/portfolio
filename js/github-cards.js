@@ -1,56 +1,60 @@
-function create_github_card(repo_info) {
-  var card = document.createElement("div");
+function create_github_card(repoInfo) {
+  let card = document.createElement("div");
   card.setAttribute("class", "card");
 
-  var link = document.createElement("a");
-  link.setAttribute("href", repo_info.html_url);
+  let link = document.createElement("a");
+  link.setAttribute("href", repoInfo.html_url);
   link.setAttribute("target", "_blank");
 
-  var name = document.createTextNode(repo_info.name);
+  let name = document.createTextNode(repoInfo.name);
   link.appendChild(name);
 
-  var description = document.createElement("p");
+  let description = document.createElement("p");
   description.setAttribute("class", "card-description");
 
-  var description_text = document.createTextNode(repo_info.description);
-  description.appendChild(description_text);
+  let descriptionText = document.createTextNode(repoInfo.description);
+  description.appendChild(descriptionText);
 
-  var info = document.createElement("p");
+  let info = document.createElement("div");
+  info.classList.add("d-flex", "flex-wrap");
 
-  var stars = document.createElement("span");
+  let stars = document.createElement("span");
 
-  var star = document.createElement("i");
+  let star = document.createElement("i");
   star.setAttribute("class", "fa fa-star");
-  var star_number = document.createTextNode(" " + repo_info.stargazers_count + " ");
+  let starNumber = document.createTextNode(` ${repoInfo.stargazers_count} `);
   stars.appendChild(star);
-  stars.appendChild(star_number);
+  stars.appendChild(starNumber);
 
-  var language = document.createElement("span");
+  let language = document.createElement("span");
   language.setAttribute("class", "card-language");
-  var language_icon = document.createElement("i");
-  language_icon.setAttribute("class", "fa fa-circle " + repo_info.language.toLowerCase());
-  var repo_language = document.createTextNode(" " + repo_info.language);
-  language.appendChild(language_icon);
-  language.appendChild(repo_language);
+  let languageIcon = document.createElement("i");
+  languageIcon.setAttribute(
+    "class",
+    `fa fa-circle ${repoInfo.language.toLowerCase()}`
+  );
+  let repoLanguage = document.createTextNode(` ${repoInfo.language}`);
+  language.appendChild(languageIcon);
+  language.appendChild(repoLanguage);
 
   info.appendChild(stars);
   info.appendChild(language);
 
-  if(repo_info.homepage !== "" && repo_info.homepage !== null) {
-    var homepage = document.createElement("span");
+  if (repoInfo.homepage !== "" && repoInfo.homepage !== null) {
+    let homepage = document.createElement("span");
     homepage.setAttribute("class", "live-demo");
 
-    var homepage_link = document.createElement("a");
-    homepage_link.setAttribute('href', repo_info.homepage);
-    var homepage_icon = document.createElement("i");
-    homepage_icon.setAttribute("class", "fa fa-external-link");
+    let homepageLink = document.createElement("a");
+    homepageLink.setAttribute("href", repoInfo.homepage);
+    let homepageIcon = document.createElement("i");
+    homepageIcon.setAttribute("class", "fas fa-external-link-alt");
 
-    var homepage_link_text = document.createTextNode(" Live demo");
-    homepage_link.appendChild(homepage_icon);
-    homepage_link.appendChild(homepage_link_text);
+    let homepageLinkText = document.createTextNode(" Live demo");
+    homepageLink.appendChild(homepageIcon);
+    homepageLink.appendChild(homepageLinkText);
 
-    homepage.appendChild(homepage_icon);
-    homepage.appendChild(homepage_link);
+    homepage.appendChild(homepageIcon);
+    homepage.appendChild(homepageLink);
     info.appendChild(homepage);
   }
 
@@ -58,6 +62,6 @@ function create_github_card(repo_info) {
   card.appendChild(description);
   card.appendChild(info);
 
-  var projects = document.querySelector(".cards");
+  let projects = document.querySelector(".cards");
   projects.appendChild(card);
 }

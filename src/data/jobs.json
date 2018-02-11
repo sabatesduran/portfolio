@@ -1,0 +1,38 @@
+[
+  {
+    "company_name": "Trinity Tech",
+    "url": "http://trinitytech.nl",
+    "position": "Full Stack Web Developer",
+    "start_date": "December 2016",
+    "end_date": "Present",
+    "location": "Amsterdam",
+    "projects": [
+      {
+        "name": "Merch Factory",
+        "type": "Ecommerce",
+        "platform": "web",
+        "logo": "merch-factory.png",
+        "url": "https://merchfactory.com",
+        "tools": ["Ruby", "Rails", "React", "Bootstrap 3", "Git", "Heroku"]
+      }
+    ]
+  },
+  {
+    "company_name": "XMI Tech",
+    "url": "http://xmitech.com/es/index.html",
+    "position": "Full Stack Web Developer",
+    "start_date": "July 2014",
+    "end_date": "September 2016",
+    "location": "Barcelona",
+    "projects": [
+      {
+        "name": "Merch Factory",
+        "type": "Ecommerce",
+        "platform": "web",
+        "logo": "merch-factory.png",
+        "url": "https://merchfactory.com",
+        "tools": ["Ruby", "Rails", "React", "Bootstrap 3", "Git", "Heroku"]
+      }
+    ]
+  }
+]

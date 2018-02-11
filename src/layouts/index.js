@@ -18,7 +18,7 @@ const TemplateWrapper = ({ children, data }) => (
       <link rel="icon" type="image/png" href={favicon} />
     </Helmet>
     <div className="container">
-      <Header links={data.allDataJson.edges[0].node.links} />
+      <Header links={data.allLinksJson.edges} />
       {children()}
     </div>
   </div>
@@ -32,15 +32,13 @@ export default TemplateWrapper;
 
 export const linksQuery = graphql`
   query links {
-    allDataJson {
+    allLinksJson {
       edges {
         node {
-          links {
-            name
-            url
-            icon
-            color
-          }
+          name
+          url
+          icon
+          color
         }
       }
     }

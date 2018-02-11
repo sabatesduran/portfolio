@@ -22,12 +22,13 @@ const Header = props => (
         {props.links.map(link => {
           return (
             <a
-              key={link.name}
-              href={link.url}
-              className={link.color}
+              key={link.node.name}
+              href={link.node.url}
+              className={link.node.color}
               target="_blank"
+              rel="noopener"
             >
-              <i className={link.icon} />
+              <i className={link.node.icon} />
             </a>
           );
         })}

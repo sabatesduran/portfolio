@@ -1,0 +1,42 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+  .card {
+    padding: 20px;
+    margin: 10px 10px 10px 0;
+    border-radius: 3px;
+    text-align: left;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-color: #d1d5da;
+    font-family: "Roboto", sans-serif !important;
+  }
+
+  a {
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .card-description {
+    font-weight: lighter;
+  }
+
+  .card-stars {
+    color: #333;
+    font-weight: lighter;
+  }
+
+  .card-language {
+    font-weight: lighter;
+  }
+
+  span {
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+}

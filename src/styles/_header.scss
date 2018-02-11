@@ -1,0 +1,31 @@
+.header {
+  margin-bottom: 1.45rem;
+
+  .header-aligment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 1.45rem 0;
+
+    .nav {
+      a {
+        margin-right: 20px;
+      }
+    }
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      a {
+        font-size: 20px;
+        margin-left: 10px;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

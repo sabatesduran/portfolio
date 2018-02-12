@@ -18,13 +18,25 @@
     }
     .links {
       display: flex;
-      align-items: center;
-      justify-content: flex-end;
+      justify-content: space-around;
+      position: fixed;
+      right: 0;
+      left: 0;
+      bottom: 20px;
       a {
         font-size: 20px;
-        margin-left: 10px;
         &:hover {
           text-decoration: none;
+        }
+      }
+
+      @media screen and (min-width: 490px) {
+        position: initial;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        a {
+          margin-left: 10px;
         }
       }
     }

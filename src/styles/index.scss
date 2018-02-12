@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Mono|Roboto");
 @import url("https://use.fontawesome.com/releases/v5.0.6/css/all.css");
 @import url("https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css");
+@import "variables";
 @import "layout";
 @import "header";
 @import "flex";
@@ -8,3 +9,4 @@
 @import "cards";
 @import "code_colors";
 @import "jobs";
+@import "articles";

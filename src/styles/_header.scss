@@ -11,9 +11,17 @@
     padding: 1.45rem 0;
 
     .nav {
+      display: flex;
+      align-items: center;
+      .logo {
+        width: 50px;
+      }
       a {
         color: #303030;
         margin-right: 20px;
+        &:hover {
+          color: $light-green;
+        }
       }
     }
     .links {

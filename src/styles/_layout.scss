@@ -4,13 +4,14 @@ body {
   height: 100vh;
   font-family: "Fira Mono", monospace;
   h1 {
-    color: #000 !important;
+    color: $primary-text-color !important;
   }
   a {
     color: inherit;
     text-decoration: none;
     &:hover,
     &.active {
+      color: $light-green;
       text-decoration: underline;
     }
   }
@@ -21,33 +22,6 @@ body {
   max-width: 960px;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 0;
-}
-
-section {
-  height: 100vh;
-  padding: 20px;
-}
-
-.me {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.me .info {
-  width: 320px;
-  text-align: center;
-}
-
-.me img {
-  width: 200px;
-  border-radius: 50%;
-  border: 3px solid #fff;
-}
-
-.link {
-  color: #333;
-  text-decoration: none;
 }
 
 @media (min-width: 700px) {

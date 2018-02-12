@@ -1,12 +1,13 @@
 import React from "react";
 import Link from "gatsby-link";
+import logo from "../images/favicon.png"
 
 const Header = props => (
   <div className="header">
     <div className="header-aligment">
       <div className="nav">
         <Link exact to="/" activeClassName="active">
-          Home
+          <img src={logo} className="logo" alt="Dídac Sabatés"/>
         </Link>
         <Link to="/work" activeClassName="active">
           Work

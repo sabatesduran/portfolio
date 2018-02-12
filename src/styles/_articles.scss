@@ -6,6 +6,8 @@
     margin: 20px 0;
   }
   .article-dates {
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 5px;
     color: $secondary-text-color;
     .article-date {

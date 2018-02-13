@@ -12,7 +12,7 @@
         "type": "Ecommerce",
         "platform": "web",
         "logo": "merch-factory.png",
-        "url": "https://merchfactory.com",
+        "url": "https://merchfactory.eu",
         "description": "",
         "tools": ["Rails", "React", "Bootstrap 3", "Git", "Heroku"]
       },

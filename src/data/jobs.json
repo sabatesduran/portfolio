@@ -13,7 +13,44 @@
         "platform": "web",
         "logo": "merch-factory.png",
         "url": "https://merchfactory.com",
-        "tools": ["Ruby", "Rails", "React", "Bootstrap 3", "Git", "Heroku"]
+        "description": "",
+        "tools": ["Rails", "React", "Bootstrap 3", "Git", "Heroku"]
+      },
+      {
+        "name": "Belgian Fantasy Football",
+        "type": "Online game",
+        "platform": "web",
+        "logo": "belgian-fantasy.png",
+        "url": "https://www.belgianfantasyfootball.be",
+        "description": "",
+        "tools": ["Rails", "Bootstrap 3", "Git", "Heroku"]
+      },
+      {
+        "name": "Capital Apartments",
+        "type": "Apartment online bookings",
+        "platform": "web",
+        "logo": "capital-apartments.png",
+        "url": "https://www.capitalapartments.nl",
+        "description": "",
+        "tools": ["Rails", "React", "GraphQL", "Bootstrap 4", "Git", "Heroku"]
+      },
+      {
+        "name": "Harbour Suites",
+        "type": "Apartment online bookings",
+        "platform": "web",
+        "logo": "harbour-suites.png",
+        "url": "https://www.harboursuites.nl",
+        "description": "",
+        "tools": ["Rails", "React", "GraphQL", "Bootstrap 4", "Git", "Heroku"]
+      },
+      {
+        "name": "hrbs.",
+        "type": "Subscription based herb shopping",
+        "platform": "web",
+        "logo": "hrbs.png",
+        "url": "https://www.hrbs.com",
+        "description": "",
+        "tools": ["Rails", "React", "GraphQL", "Bootstrap 4", "Git", "Heroku"]
       }
     ]
   },
@@ -26,12 +63,31 @@
     "location": "Barcelona",
     "projects": [
       {
-        "name": "Merch Factory",
-        "type": "Ecommerce",
-        "platform": "web",
-        "logo": "merch-factory.png",
-        "url": "https://merchfactory.com",
-        "tools": ["Ruby", "Rails", "React", "Bootstrap 3", "Git", "Heroku"]
+        "name": "Radio Granollers",
+        "type": "Mobile app",
+        "platform": "Mobile devices",
+        "logo": "radio-granollers.png",
+        "description": "",
+        "url": "https://play.google.com/store/apps/details?id=com.xmitech.radiogasl",
+        "tools": ["Apache Cordova", "API REST", "jQuery", "CSS3", "Git"]
+      },
+      {
+        "name": "Mutua de Propietarios",
+        "type": "web",
+        "platform": "Destop",
+        "logo": "mutua-de-propietarios.png",
+        "description": "",
+        "url": "https://www.mutuadepropietarios.es",
+        "tools": ["PHP", "API REST", "Bootstrap", "jQuery", "CSS3", "Git", "Java", "Debian"]
+      },
+      {
+        "name": "LinCat",
+        "type": "Mobile game",
+        "platform": "Mobile devices",
+        "logo": "lincat.png",
+        "url": "",
+        "description": "",
+        "tools": ["Apache Cordova", "API REST", "jQuery", "CSS3", "Git"]
       }
     ]
   }

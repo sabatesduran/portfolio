@@ -32,6 +32,7 @@ export const jobsQuery = graphql`
             platform
             logo
             url
+            description
             tools
           }
         }

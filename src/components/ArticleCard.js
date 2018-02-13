@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ExternalLink from "../components/ExternalLink";
 import Tag from "../components/Tag";
 
 class ArticleCard extends Component {
@@ -7,9 +8,9 @@ class ArticleCard extends Component {
     return (
       <div className="article">
         <h3>
-          <a href={article.url} target="_blank" rel="noopener">
+          <ExternalLink url={article.url}>
             {article.title}
-          </a>
+          </ExternalLink>
         </h3>
         <p className="article-dates">
           <span className="article-date">
@@ -21,7 +22,7 @@ class ArticleCard extends Component {
         </p>
         <div className="tags">
           {article.tags.map(tag => {
-            return <Tag key={tag} tag={tag} />
+            return <Tag key={tag} tag={tag} />;
           })}
         </div>
         {/* <hr/> */}

@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import Link from "gatsby-link";
 import axios from "axios";
 import GithubCard from "../components/GithubCard";
 
 class GithubCardsGrid extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       repos: []
     };
@@ -37,11 +36,11 @@ class GithubCardsGrid extends Component {
   }
 
   render() {
-    const { repos } = this.state;
-
     return (
       <div className="cards">
-        {repos.length > 0 ? this.createGithubCards() : "Loading repos ..."}
+        {this.state.repos.length > 0
+          ? this.createGithubCards()
+          : "Loading repos ..."}
       </div>
     );
   }

@@ -21,7 +21,7 @@ class ArticleCard extends Component {
         </p>
         <div className="tags">
           {article.tags.map(tag => {
-            return <Tag tag={tag} />
+            return <Tag key={tag} tag={tag} />
           })}
         </div>
         {/* <hr/> */}

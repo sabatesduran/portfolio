@@ -6,7 +6,8 @@ class GithubCardsGrid extends Component {
   constructor() {
     super();
     this.state = {
-      repos: []
+      repos: [],
+      loadingText: "Loading repos ..."
     };
   }
 
@@ -14,7 +15,12 @@ class GithubCardsGrid extends Component {
     axios
       .get("https://api.github.com/users/sabatesduran/repos")
       .then(response => response.data)
-      .then(repos => this.setState({ repos: repos }));
+      .then(repos => this.setState({ repos: repos }))
+      .catch(error =>
+        this.setState({
+          loadingText: "Sorry, something happend with the Github API."
+        })
+      );
   }
 
   createGithubCards() {
@@ -36,11 +42,10 @@ class GithubCardsGrid extends Component {
   }
 
   render() {
+    const { repos, loadingText } = this.state;
     return (
       <div className="cards">
-        {this.state.repos.length > 0
-          ? this.createGithubCards()
-          : "Loading repos ..."}
+        {this.state.repos.length > 0 ? this.createGithubCards() : loadingText}
       </div>
     );
   }

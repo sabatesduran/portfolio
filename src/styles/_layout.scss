@@ -22,10 +22,12 @@ body {
   max-width: 960px;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 0;
+  margin-bottom: 50px;
 }
 
 @media (min-width: 700px) {
   .container {
     width: 70%;
+    margin-bottom: 0;
   }
 }

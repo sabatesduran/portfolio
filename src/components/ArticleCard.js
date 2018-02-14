@@ -16,16 +16,20 @@ class ArticleCard extends Component {
           <span className="article-date">
             <u>Published</u>: {article.published_at}
           </span>
-          <span className="article-date">
-            <u>Updated</u>: {article.updated_at}
-          </span>
+          {
+            article.updated_at != "" ?
+            <span className="article-date">
+              <u>Updated</u>: {article.updated_at}
+            </span>
+            :
+            false
+          }
         </p>
         <div className="tags">
           {article.tags.map(tag => {
             return <Tag key={tag} tag={tag} />;
           })}
         </div>
-        {/* <hr/> */}
       </div>
     );
   }

@@ -10,7 +10,7 @@ const IndexPage = () => (
     </p>
 
     <h4>Things i like:</h4>
-    <ul>
+    <ul className="list">
       <li>Coffee ☕</li>
       <li>Making things with my hands 🖐️</li>
       <li>Teaching 📚</li>
@@ -18,7 +18,7 @@ const IndexPage = () => (
     </ul>
 
     <h4>Tech I normally/currently use: </h4>
-    <ul>
+    <ul className="list">
       <li>Linux &hearts;</li>
       <li>VSCode</li>
       <li>Terminator</li>

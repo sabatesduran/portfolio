@@ -1,10 +1,29 @@
 [
   {
+    "company_name": "hrbs.",
+    "url": "http://www.hrbs.com",
+    "position": "CTO",
+    "start_date": "May 2018",
+    "end_date": "Present",
+    "location": "Amsterdam",
+    "projects": [
+      {
+        "name": "hrbs.",
+        "type": "Subscription based herb shopping",
+        "platform": "web",
+        "logo": "hrbs.png",
+        "url": "https://www.hrbs.com",
+        "description": "",
+        "tools": ["Rails", "React", "Bootstrap 4", "Git", "Heroku"]
+      }
+    ]
+  },
+  {
     "company_name": "Trinity Tech",
     "url": "http://trinitytech.nl",
     "position": "Full Stack Web Developer",
     "start_date": "December 2016",
-    "end_date": "Present",
+    "end_date": "May 2018",
     "location": "Amsterdam",
     "projects": [
       {
@@ -40,15 +59,6 @@
         "platform": "web",
         "logo": "harbour-suites.png",
         "url": "https://www.harboursuites.nl",
-        "description": "",
-        "tools": ["Rails", "React", "GraphQL", "Bootstrap 4", "Git", "Heroku"]
-      },
-      {
-        "name": "hrbs.",
-        "type": "Subscription based herb shopping",
-        "platform": "web",
-        "logo": "hrbs.png",
-        "url": "https://www.hrbs.com",
         "description": "",
         "tools": ["Rails", "React", "GraphQL", "Bootstrap 4", "Git", "Heroku"]
       }

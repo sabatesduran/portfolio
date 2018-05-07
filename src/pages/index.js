@@ -27,6 +27,7 @@ const IndexPage = () => (
       <li>React</li>
       <li>Ruby on Rails</li>
       <li>GraphQL</li>
+      <li>SASS</li>
       <li>Boostrap 4</li>
       <li>Fira Code (This actual font)</li>
     </ul>

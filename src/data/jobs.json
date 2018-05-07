@@ -1,6 +1,6 @@
 [
   {
-    "company_name": "hrbs.",
+    "company_name": "hrbs",
     "url": "http://www.hrbs.com",
     "position": "CTO",
     "start_date": "May 2018",
@@ -8,7 +8,7 @@
     "location": "Amsterdam",
     "projects": [
       {
-        "name": "hrbs.",
+        "name": "hrbs.com",
         "type": "Subscription based herb shopping",
         "platform": "web",
         "logo": "hrbs.png",

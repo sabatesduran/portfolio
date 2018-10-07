@@ -1,6 +1,6 @@
 .theme-transition {
   min-height: 100vh;
-  transition: $transition-time all ease;
+  transition: $transition-time background ease;
 }
 
 .dark-mode {
@@ -29,6 +29,5 @@
   .links {
     border-color: $white !important;
     background-color: $black !important;
-    transition: $transition-time all ease;
   }
 }

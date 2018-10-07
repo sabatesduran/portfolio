@@ -34,7 +34,7 @@
       padding: 20px 0;
       background-color: $white;
       border-top: 1px solid $black;
-      transition: $transition-time all ease;
+      transition: $transition-time background ease;
 
       a {
         font-size: 20px;
@@ -53,6 +53,10 @@
 
         a {
           margin-left: 10px;
+        }
+
+        .links {
+          background-color: none;
         }
       }
     }

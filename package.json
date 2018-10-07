@@ -5,6 +5,9 @@
   "author": "Dídac Sabatés <sabatesduran@gmail.com>",
   "dependencies": {
     "axios": "^0.17.1",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "gatsby": "^1.9.158",
     "gatsby-link": "^1.6.34",
     "gatsby-plugin-google-analytics": "^1.0.31",

@@ -11,24 +11,35 @@ class TemplateWrapper extends Component {
   constructor(props) {
     super(props);
     this.localStorageId = "sabatesduran-config-v0";
+
     let localeStorageConfig = this.loadConfigFromLocalStorage();
+
     let defaultState = {
       darkMode: false
     };
+
     this.state = Object.assign(defaultState, localeStorageConfig);
   }
 
+  checkLocalStorage = () => {
+    return typeof Storage !== "undefined";
+  };
+
   loadConfigFromLocalStorage = () => {
-    return JSON.parse(localStorage.getItem(this.localStorageId));
+    return this.checkLocalStorage()
+      ? JSON.parse(localStorage.getItem(this.localStorageId))
+      : {};
   };
 
   saveConfigToLocalStorage = () => {
-    localStorage.setItem(this.localStorageId, JSON.stringify(this.state));
+    this.checkLocalStorage()
+      ? localStorage.setItem(this.localStorageId, JSON.stringify(this.state))
+      : "";
   };
 
-  onToggleDarkMode = () => {
-    this.setState({ darkMode: this.state.darkMode ? false : true });
-    this.saveConfigToLocalStorage();
+  onToggleDarkMode = async () => {
+    await this.setState({ darkMode: this.state.darkMode ? false : true });
+    await this.saveConfigToLocalStorage();
   };
 
   render() {

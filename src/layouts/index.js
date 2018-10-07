@@ -26,9 +26,9 @@ class TemplateWrapper extends Component {
     localStorage.setItem(this.localStorageId, JSON.stringify(this.state));
   };
 
-  onToggleDarkMode = async () => {
-    await this.setState({ darkMode: this.state.darkMode ? false : true });
-    await this.saveConfigToLocalStorage();
+  onToggleDarkMode = () => {
+    this.setState({ darkMode: this.state.darkMode ? false : true });
+    this.saveConfigToLocalStorage();
   };
 
   render() {

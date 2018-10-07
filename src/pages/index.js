@@ -5,8 +5,8 @@ const IndexPage = () => (
   <div>
     <h1>Hi,</h1>
     <p>
-      My name is Dídac, I'm a software developer from Barcelona, currently living
-      in Amsterdam.
+      My name is Dídac, I'm a software developer from Barcelona, currently
+      living in Amsterdam.
     </p>
 
     <h4>Things i like:</h4>

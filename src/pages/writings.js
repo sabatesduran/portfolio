@@ -9,6 +9,7 @@ const Writings = ({ data }) => (
       <a className="d-flex" href="https://dev.to/sabatesduran">
         <img
           src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+          style={ {backgroundColor: "#fff" } }
           alt="Dídac Sabatés's DEV Profile"
           height="25"
           width="25"

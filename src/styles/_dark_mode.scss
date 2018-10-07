@@ -1,0 +1,34 @@
+.theme-transition {
+  min-height: 100vh;
+  transition: $transition-time all ease;
+}
+
+.dark-mode {
+  min-height: 100vh;
+  background-color: $black;
+  color: $light-grey;
+  transition: $transition-time all ease;
+
+  a {
+    color: $light-grey;
+  }
+
+  .logo path {
+    fill: $white;
+  }
+
+  .card {
+    border: 1px solid $card-border;
+    background: $black;
+  }
+
+  .switch {
+    background-color: $switch-color;
+  }
+
+  .links {
+    border-color: $white !important;
+    background-color: $black !important;
+    transition: $transition-time all ease;
+  }
+}

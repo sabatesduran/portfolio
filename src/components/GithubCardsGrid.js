@@ -15,7 +15,7 @@ class GithubCardsGrid extends Component {
     axios
       .get("https://api.github.com/users/sabatesduran/repos")
       .then(response => response.data)
-      .then(repos => this.setState({ repos: repos }))
+      .then(data => this.setState({ repos: data }))
       .catch(error =>
         this.setState({
           loadingText: "Sorry, something happend with the Github API."

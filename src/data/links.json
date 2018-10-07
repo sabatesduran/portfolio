@@ -1,38 +1,37 @@
-[
-  {
+[{
     "name": "Twitter",
     "url": "https://twitter.com/didacsd",
     "icon": "fab fa-twitter",
-    "color": "animate-icon twitter-color"
+    "class": ""
   },
   {
     "name": "LinkedIn",
     "url": "https://es.linkedin.com/in/didacsabates/en",
     "icon": "fab fa-linkedin",
-    "color": "animate-icon linkedin-color"
+    "class": ""
   },
   {
     "name": "Stack Overflow",
     "url": "http://stackoverflow.com/users/3437023/sabatesduran",
     "icon": "fab fa-stack-overflow",
-    "color": "animate-icon stack-overflow-color"
+    "class": ""
   },
   {
     "name": "Github",
     "url": "https://github.com/sabatesduran",
     "icon": "fab fa-github",
-    "color": "animate-icon github-color"
+    "class": ""
   },
   {
     "name": "Gitlab",
     "url": "https://gitlab.com/sabatesduran",
     "icon": "fab fa-gitlab",
-    "color": "animate-icon gitlab-color"
+    "class": ""
   },
   {
     "name": "Email",
     "url": "mailto:sabatesduran@gmail.com",
     "icon": "far fa-envelope",
-    "color": "animate-icon email-color"
+    "class": ""
   }
 ]

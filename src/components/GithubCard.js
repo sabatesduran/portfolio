@@ -6,7 +6,7 @@ class GithubCard extends Component {
     const { name, description, stars, language, repoURL, liveURL } = this.props;
     return (
       <div className="card">
-        <a href={repoURL} target="_blank">
+        <a className="card-title" href={repoURL} target="_blank">
           {name}
         </a>
         <p className="card-description">{description}</p>

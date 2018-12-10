@@ -12,11 +12,7 @@ const NotFoundPage = () => (
       }}
     >
       <img
-        src={
-          JSON.parse(localStorage.getItem("sabatesduran-config-v0")).darkMode
-            ? LostLightsOff
-            : LostLightsOn
-        }
+        src={LostLightsOn}
         style={{
           width: "70%",
           height: "100%"

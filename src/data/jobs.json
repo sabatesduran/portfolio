@@ -1,10 +1,19 @@
 [
   {
+    "company_name": "Verse Technologies Inc.",
+    "url": "http://verse.me",
+    "position": "Front-end Developer",
+    "start_date": "May 2018",
+    "end_date": "Present",
+    "location": "Barcelona",
+    "projects": []
+  },
+  {
     "company_name": "hrbs",
     "url": "http://www.hrbs.com",
     "position": "CTO",
     "start_date": "May 2018",
-    "end_date": "Present",
+    "end_date": "May 2019",
     "location": "Amsterdam",
     "projects": [
       {
